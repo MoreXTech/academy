@@ -24,8 +24,8 @@ const howItWorks = [
 ];
 
 const platformLinks = [
-  { name: 'PeoplePerHour', href: 'https://www.peopleperhour.com/freelancer/writing-translation/shahbaz-ahmed-top-cert-expert-developer-designer-yvqvyn', image: https://www.peopleperhour.com/css/pph2/images/pph2-share.png, imageAlt: 'PeoplePerHour logo' },
-  { name: 'Upwork', href: 'https://www.upwork.com/agencies/1538114129798766592/', image: https://www.upwork.com/static/marketing/ui/master/img/logo-1200x630.png, imageAlt: 'Upwork logo' },
+  { name: 'PeoplePerHour', href: 'https://www.peopleperhour.com/freelancer/writing-translation/shahbaz-ahmed-top-cert-expert-developer-designer-yvqvyn', image: 'https://www.peopleperhour.com/css/pph2/images/pph2-share.png', imageAlt: 'PeoplePerHour logo' },
+  { name: 'Upwork', href: 'https://www.upwork.com/agencies/1538114129798766592/', image: 'https://www.upwork.com/static/marketing/ui/master/img/logo-1200x630.png', imageAlt: 'Upwork logo' },
 ];
 
 const faqItems = [
