@@ -8,7 +8,7 @@ import { Users, Zap, CalendarCheck, CreditCard, ExternalLink, HelpCircle, CheckC
 const mentors = [
   { name: 'Shahbaz Ahmed', expertise: 'Freelancing, Scientific Writing, Marketing', image: 'https://morextech.com/wp-content/uploads/2023/10/ahmed_shahbaz-removebg-preview-e1714635306173.webp', imageAlt: 'Professional photo of Shahbaz Ahmed', profileLink: '/our-mentors/shahbaz' },
   { name: 'Muhammad Shehzad', expertise: 'Web & Mobile App Development | React JS |Next JS | React Native | Ghost CMS | WordPress', image: 'https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_374/https://morextech.com/wp-content/uploads/2025/04/Muhammad-shahzad-more-x-tech-removebg-preview.avif', imageAlt: 'Professional photo of Muhammad Shehzad', profileLink: '/our-mentors/shehzad' },
-  { name: 'Gulbaz Ahmed', expertise: 'Accounting and Finance', image: 'https://morextech.com/wp-content/uploads/2024/05/Gulbaz-1.webp', imageAlt: 'Professional photo of Gulbaz Ahmed', profileLink: 'our-mentors/gulbaz' }, // Update link if Gulbaz gets a profile page
+  { name: 'Gulbaz Ahmed', expertise: 'Accounting and Finance', image: 'https://morextech.com/wp-content/uploads/2024/05/Gulbaz-1.webp', imageAlt: 'Professional photo of Gulbaz Ahmed', profileLink: '/our-mentors/gulbaz' }, // Update link if Gulbaz gets a profile page
 ];
 
 const servicesOffered = [
