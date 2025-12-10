@@ -6,9 +6,9 @@ import { motion } from 'framer-motion';
 import { Users, Zap, CalendarCheck, CreditCard, ExternalLink, HelpCircle, CheckCircle, UserCircle as MentorIcon } from 'lucide-react';
 
 const mentors = [
-  { name: 'Shahbaz Ahmed', expertise: 'Freelancing, Scientific Writing, Marketing', imageAlt: 'Professional photo of Shahbaz Ahmed', profileLink: '/our-mentors/shahbaz' },
-  { name: 'Muhammad Shehzad', expertise: 'Web & Mobile App Development | React JS |Next JS | React Native | Ghost CMS | WordPress', imageAlt: 'Professional photo of Muhammad Shehzad', profileLink: '/our-mentors/shehzad' },
-  { name: 'Gulbaz Ahmed', expertise: 'Accounting and Finance', imageAlt: 'Professional photo of Gulbaz Ahmed', profileLink: 'our-mentors/gulbaz' }, // Update link if Gulbaz gets a profile page
+  { name: 'Shahbaz Ahmed', expertise: 'Freelancing, Scientific Writing, Marketing', image: 'https://morextech.com/wp-content/uploads/2023/10/ahmed_shahbaz-removebg-preview-e1714635306173.webp', imageAlt: 'Professional photo of Shahbaz Ahmed', profileLink: '/our-mentors/shahbaz' },
+  { name: 'Muhammad Shehzad', expertise: 'Web & Mobile App Development | React JS |Next JS | React Native | Ghost CMS | WordPress', image: 'https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_374/https://morextech.com/wp-content/uploads/2025/04/Muhammad-shahzad-more-x-tech-removebg-preview.avif', imageAlt: 'Professional photo of Muhammad Shehzad', profileLink: '/our-mentors/shehzad' },
+  { name: 'Gulbaz Ahmed', expertise: 'Accounting and Finance', image: 'https://morextech.com/wp-content/uploads/2024/05/Gulbaz-1.webp', imageAlt: 'Professional photo of Gulbaz Ahmed', profileLink: 'our-mentors/gulbaz' }, // Update link if Gulbaz gets a profile page
 ];
 
 const servicesOffered = [
@@ -24,8 +24,8 @@ const howItWorks = [
 ];
 
 const platformLinks = [
-  { name: 'PeoplePerHour', href: 'https://www.peopleperhour.com/freelancer/yourprofile', imageAlt: 'PeoplePerHour logo' },
-  { name: 'Upwork', href: 'https://www.upwork.com/freelancers/yourprofile', imageAlt: 'Upwork logo' },
+  { name: 'PeoplePerHour', href: 'https://www.peopleperhour.com/freelancer/writing-translation/shahbaz-ahmed-top-cert-expert-developer-designer-yvqvyn', image: https://www.peopleperhour.com/css/pph2/images/pph2-share.png, imageAlt: 'PeoplePerHour logo' },
+  { name: 'Upwork', href: 'https://www.upwork.com/agencies/1538114129798766592/', image: https://www.upwork.com/static/marketing/ui/master/img/logo-1200x630.png, imageAlt: 'Upwork logo' },
 ];
 
 const faqItems = [
@@ -81,7 +81,7 @@ const OurMentorsPage = () => {
             >
               <Card className="h-full flex flex-col items-center text-center p-6 transform hover:shadow-2xl transition-shadow duration-300">
                 <div className="w-32 h-32 rounded-full bg-muted flex items-center justify-center mb-4 overflow-hidden border-2 border-primary">
-                  <img  alt={mentor.imageAlt} className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1575383596664-30f4489f9786" />
+                  <img src={mentor.image} alt={mentor.imageAlt} />
                 </div>
                 <CardTitle className="text-2xl text-primary mb-1">{mentor.name}</CardTitle>
                 <CardDescription className="text-foreground/70 mb-3">{mentor.expertise}</CardDescription>
@@ -160,7 +160,7 @@ const OurMentorsPage = () => {
                 transition={{ delay: 0.2 * index, duration: 0.4 }}
               >
                 <div className="w-24 h-12 mb-3 flex items-center justify-center">
-                  <img  alt={platform.imageAlt} className="max-h-full max-w-full object-contain" src="https://images.unsplash.com/photo-1643101808019-34feab61ea6a" />
+                  <img  src={platform.image} alt={platform.imageAlt} className="max-h-full max-w-full object-contain" />
                 </div>
                 <span className="text-lg font-semibold text-primary">{platform.name}</span>
                 <ExternalLink className="h-4 w-4 text-muted-foreground ml-1" />
