@@ -7,7 +7,8 @@ import { Users, Zap, CalendarCheck, CreditCard, ExternalLink, HelpCircle, CheckC
 
 const mentors = [
   { name: 'Shahbaz Ahmed', expertise: 'Freelancing, Scientific Writing, Marketing', imageAlt: 'Professional photo of Shahbaz Ahmed', profileLink: '/our-mentors/shahbaz' },
-  { name: 'Gulbaz Ahmed', expertise: 'Remote Work Strategies, Side Hustles', imageAlt: 'Professional photo of Gulbaz Ahmed', profileLink: '#' }, // Update link if Gulbaz gets a profile page
+  { name: 'Muhammad Shehzad', expertise: 'Web & Mobile App Development | React JS |Next JS | React Native | Ghost CMS | WordPress', imageAlt: 'Professional photo of Muhammad Shehzad', profileLink: '/our-mentors/shehzad' },
+  { name: 'Gulbaz Ahmed', expertise: 'Accounting and Finance', imageAlt: 'Professional photo of Gulbaz Ahmed', profileLink: 'our-mentors/gulbaz' }, // Update link if Gulbaz gets a profile page
 ];
 
 const servicesOffered = [
