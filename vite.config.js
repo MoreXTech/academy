@@ -182,6 +182,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+	root: '.', // Add this to specify root directory
 	customLogger: logger,
 	plugins: [react(), addTransformIndexHtml],
 	server: {
@@ -192,9 +193,17 @@ export default defineConfig({
 		allowedHosts: true,
 	},
 	resolve: {
-		extensions: ['.jsx', '.js', '.tsx', '.ts', '.json', ],
+		extensions: ['.jsx', '.js', '.tsx', '.ts', '.json' ],
 		alias: {
 			'@': path.resolve(__dirname, './src'),
 		},
 	},
+	build: { // Add this build section
+    	outDir: 'dist',
+    	rollupOptions: {
+      	input: {
+        	main: path.resolve(__dirname, 'index.html')
+      }
+    }
+  }
 });
