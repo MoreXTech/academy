@@ -6,6 +6,8 @@ import ResourcesPage from '@/pages/ResourcesPage';
 import BlogPage from '@/pages/BlogPage';
 import HireMePage from '@/pages/HireMePage';
 import ShahbazProfilePage from '@/pages/ShahbazProfilePage';
+import ShahbazProfilePage from '@/pages/ShehzadProfilePage';
+import ShahbazProfilePage from '@/pages/GulbazProfilePage';
 import OurMentorsPage from '@/pages/OurMentorsPage';
 import NotFoundPage from '@/pages/NotFoundPage';
 import Layout from '@/components/Layout';
@@ -22,6 +24,8 @@ const router = createBrowserRouter([
       { path: "/hire-me", element: <HireMePage /> },
       { path: "/our-mentors", element: <OurMentorsPage /> },
       { path: "/our-mentors/shahbaz", element: <ShahbazProfilePage /> },
+      { path: "/our-mentors/shehzad", element: <ShehzadProfilePage /> },
+      { path: "/our-mentors/gulbaz", element: <GulbazProfilePage /> },
       { path: "*", element: <NotFoundPage /> },
     ],
   },
