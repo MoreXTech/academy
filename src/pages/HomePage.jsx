@@ -11,8 +11,8 @@ import { useToast } from '@/components/ui/use-toast';
 
 const featuredCourses = [
   { id: 1, title: 'Freelancing Kickstarter', description: 'Launch your freelance career with proven strategies.', imageAlt: 'Laptop with code and coffee', category: 'Freelancing', price: 'Free' },
-  { id: 2, title: 'Remote Work Mastery', description: 'Excel in a remote environment and boost productivity.', imageAlt: 'Person working comfortably at home office', category: 'Remote Work', price: '$49' },
-  { id: 3, title: 'Ethical Side Hustles', description: 'Discover profitable and ethical ways to earn extra income.', imageAlt: 'Collection of diverse icons representing side hustles', category: 'Side Hustles', price: '$29' },
+  { id: 2, title: 'Remote Work Mastery', description: 'Excel in a remote environment and boost productivity.', imageAlt: 'Person working comfortably at home office', category: 'Remote Work', price: 'Free' },
+  { id: 3, title: 'Ethical Side Hustles', description: 'Discover profitable and ethical ways to earn extra income.', imageAlt: 'Collection of diverse icons representing side hustles', category: 'Side Hustles', price: 'Free' },
 ];
 
 const testimonials = [
